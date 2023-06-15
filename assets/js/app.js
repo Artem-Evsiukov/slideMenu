@@ -26,20 +26,14 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var swiperSlider = function () {
   var BurderSwiper = new Swiper('.BurderSwiper', {
-    cssMode: true,
+    direction: 'vertical',
     slidesPerView: 1,
-    speed: 800,
-    // direction: 'vertical',
-    // centeredSlides: true,
-    loop: true,
-    spaceBetween: 20,
-    // autoplay: {
-    //   delay: 5000,
-    // },
-    // observer: true,
-    // observeParents: true,
-    mousewheel: true,
-    keyboard: true
+    speed: 2000,
+    centerInsufficientSlides: true,
+    autoplay: {
+      delay: 6000
+    },
+    loop: true
   });
   var init = function init() {};
   return {
