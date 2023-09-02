@@ -26,7 +26,8 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = void 0;
 var swiperSlider = function () {
   var BurderSwiper = new Swiper('.BurderSwiper', {
-    direction: 'vertical',
+    // direction: 'vertical',
+    effect: 'fade',
     slidesPerView: 1,
     speed: 2000,
     centerInsufficientSlides: true,
