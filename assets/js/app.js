@@ -32,7 +32,7 @@ var swiperSlider = function () {
     speed: 2000,
     centerInsufficientSlides: true,
     autoplay: {
-      delay: 6000
+      delay: 10000
     },
     loop: true
   });
